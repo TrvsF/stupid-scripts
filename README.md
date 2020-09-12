@@ -12,7 +12,7 @@ py gitbot.py
 ```
 
 ### tokenlogin
-simple script to make logging in with someones token a little easier
+simple script to make logging in with someones token a little easier [not that id ever need/use this ;)]
 
 run the script and input the token
 ```bash
