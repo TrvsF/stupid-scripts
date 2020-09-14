@@ -36,7 +36,7 @@ class Login(discord.Client):
 def tokenLogin(token):
     opts = webdriver.ChromeOptions()
     opts.add_experimental_option("detach", True)
-    driver = webdriver.Chrome('chromedriver.exe', options=opts)
+    driver = webdriver.Chrome('lib/chromedriver.exe', options=opts)
     script = """
             function login(token) {
             setInterval(() => {
